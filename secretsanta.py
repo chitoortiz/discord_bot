@@ -1,5 +1,7 @@
 import discord
 import os
+import random
+from randomise import *
 
 client = discord.Client()
 
