@@ -21,4 +21,4 @@ async def on_message(message):
             await message.author.send(Sofía)
 
 
-client.run('ODU3MTgxNDM1NjI2Mzg5NTQ1.YNL2aw.V_adMHoTEeqXImxEg5vmfSF9vjE')
+client.run(token)
