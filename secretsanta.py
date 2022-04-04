@@ -5,8 +5,8 @@ from randomise import *
 
 client = discord.Client()
 
-idNacho = 264423375542157312
-idSofía = 881858600929198110
+idPerson1 = ******************
+idPerson2 = ******************
 
 @client.event
 async def on_ready():
@@ -14,11 +14,11 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('#quien'): 
-        if message.author.id == idNacho:
-            await message.author.send(Nacho)
-        if message.author.id == idSofía:
-            await message.author.send(Sofía)
+    if message.content.startswith('#who'): 
+        if message.author.id == idPerson1:
+            await message.author.send(Person1)
+        if message.author.id == idPerson2:
+            await message.author.send(Person2)
 
 
 client.run(token)
