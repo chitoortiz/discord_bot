@@ -1,60 +1,30 @@
 import random
 
-Nacho = "Nacho"
-Sofía = "Sofía"
-Alberto = "Alberto"
-Andreu = "Andreu"
-Jens = "Jens"
-Luisa = "Luisa"
-Queku = "Queku"
-Susana = "Susana"
+Person1 = Name1
+Person2 = Name2
+Person3 = Name3
+Person4 = Name4
+Person5 = Name5
+Person6 = Name6
+Person7 = Name7
+Person8 = Name8
 
-players = ["Nacho", "Sofía", "Alberto", "Andreu", "Jens", "Luisa", "Queku", "Susana"]
+players = [Name1, Name2, Name3, Name4, Name5, Name6, Name7, Name8]
 
-while Nacho == "Nacho":
-    Nacho = random.choice(players)
+while Person1 == Name1:
+    Person1 = random.choice(players)
     
-players.remove(Nacho)
-print("Nacho: " + Nacho)
+players.remove(Person1)
+print("Player1: " + Person1)
 
-while Sofía == "Sofía":
-    Sofía = random.choice(players)
+while Person2 == Name2:
+    Person2 = random.choice(players)
 
-players.remove(Sofía)
-print("Sofía: " + Sofía)
+players.remove(Person2)
+print("Player2: " + Person2)
 
-while Alberto == "Alberto":
-    Alberto = random.choice(players)
+while Person3 == Name3:
+    Person3 = random.choice(players)
 
-players.remove(Alberto)
-print("Alberto: " + Alberto)
-
-while Andreu == "Andreu":
-    Andreu = random.choice(players)
-
-players.remove(Andreu)
-print("Andreu: " + Andreu)
-
-while Jens == "Jens":
-    Jens = random.choice(players)
-
-players.remove(Jens)
-print("Jens: " + Jens)
-
-while Luisa == "Luisa":
-    Luisa = random.choice(players)
-
-players.remove(Luisa)
-print("Luisa: " + Luisa)
-
-while Queku == "Queku":
-    Queku = random.choice(players)
-
-players.remove(Queku)
-print("Queku: " + Queku)
-
-while Susana == "Susana":
-    Susana = random.choice(players)
-
-players.remove(Susana)
-print("Susana: " + Susana)
+players.remove(Person3)
+print("Player3: " + Person3)
